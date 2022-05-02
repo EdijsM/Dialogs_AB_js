@@ -16,8 +16,11 @@ Tie sastāv no redzamiem un neredzamiems simboliem.
 
 > Kādus simbolus izmanto tagos ?  
 
-![Simbolu bildes](http://www.ecowin.org/aulas/resources/tables/asciitable.jpg)  
-Simbolu informācija tiek uzgalbāta kā 0 un 1, jeb bitu kombinācijā. Jo datora dzelži nolasa informāciju binārajā kodā.
+![Simbolu bildes](http://www.ecowin.org/aulas/resources/tables/asciitable.jpg)
+Bilde pirmavots [Ecowin.org](http://www.ecowin.org/aulas/resources/tables/asciitable.jpg)  
+  
+### Simboli
+To informācija tiek uzgalbāta kā 0 un 1, jeb bitu kombinācijā, jo datora dzelži nolasa informāciju binārajā kodā.
 Kur 0 un 1 ir Elementārā atmiņas šūna. Savukārt lai mēs saprastu dators 0 un 1 pārvērš mums saprotamos simbolos.  
   
 *piemēram.* < html > sastāv no 6 redzamiem simboliem un katrs simbols no astoņām elemtārās atmiņas šūnām.  
@@ -30,6 +33,6 @@ Kur 0 un 1 ir Elementārā atmiņas šūna. Savukārt lai mēs saprastu dators 0
 5. l        (0100 1100)
 6. >        (0011 1110)
 ```
-
-
-
+  
+  
+## Elektroniskās klades veidošana.  
