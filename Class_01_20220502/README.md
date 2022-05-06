@@ -21,7 +21,7 @@ Bildes pirmavots [Ecowin.org](http://www.ecowin.org/aulas/resources/tables/ascii
  
   
 ### Simboli
-To informācija tiek uzgalbāta kā 0 un 1, jeb bitu kombinācijā, jo datora dzelži nolasa informāciju binārajā kodā.
+Simboli ir zīmes un Latiņvalodas būrti kuri ir vienoti programmēšanas valodās. To informācija datorā tiek uzgalbāta kā 0 un 1, jeb bitu kombinācijā, jo datora dzelži nolasa informāciju binārajā kodā.
 Kuru dators lasa kā nulles un vieninieku, tie skaitās kā *Elementārā atmiņas šūna.* Savukārt lai mēs saprastu dators 0 un 1 pārvērš mums saprotamos simbolos.  
   
 *piemēram* `<html>` sastāv no 6 redzamiem simboliem un katrs simbols no astoņām elemtārās atmiņas šūnām.  
@@ -37,17 +37,15 @@ Kuru dators lasa kā nulles un vieninieku, tie skaitās kā *Elementārā atmiņ
   
   
 ## Elektroniskās klades veidošana.  
-Kā jau visiem projektiem arī programmēšanai ir nepieciešami pieraksti un vieta kur tos ērti glabāt. Tādiem nolūkiem mūsu rīcībā ir [GitHub.com](http://github.com), kuram gluži kā epastam varam piekļūt no jebkuras vietas pasaulē. Bet pie projektiem mēs nestrādājam vienatnē, un lai visu atvieglotu viņi ir parūpējušies par to lai tavus projektus var redzēt un tiem pievienoties var arī citi. Visas izmaiņas pieraksots un citās darbībās ar projektiem, tiek saglabātas vēsturē uz visiem laikiem[^2]    
-> Kā iesākt projektu?   
+Kā jau visiem projektiem arī programmēšanai ir nepieciešami pieraksti un vieta kur tos ērti glabāt. Tādiem nolūkiem mūsu rīcībā ir [GitHub.com](http://github.com), kuram gluži kā epastam varam piekļūt no jebkuras vietas pasaulē. Bet pie projektiem mēs nestrādājam vienatnē, un lai visu atvieglotu viņi ir parūpējušies par to lai tavus projektus var redzēt un tiem pievienoties var arī citi. Visas izmaiņas pieraksots un citās darbībās ar projektiem, tiek saglabātas vēsturē uz visiem laikiem[^2]      
 
-1. Pēc reģistrācijas, uz tava sākuma ekrāna jābūt šādam logam. Spied uz pogas **Start a project**
-![1](https://user-images.githubusercontent.com/104782418/166487513-6c1ef7fe-dcfd-474d-ad98-e86b071ba2e3.JPG)  
+Projekta iesākšanas pamācibai esmu sagatavojis atsevišķua failu: [kurš atrodams šeit](Class_01_20220502/Jauns_projekts.md)
     
-2. Nākošajā solī būs jaaizpilda projekta info.  
-
-![2](https://user-images.githubusercontent.com/104782418/166488478-30ffa9b7-1739-4182-842a-fb30e6c18522.JPG)
-
-    
+  
+## Mājasdarbs
+- [x] izveidot pirmās nodarbības pārskatu izmantojot teksta formatēšanas iespējas github platformā
+- [x] izdomāt kādu noslēdzošā darba mājaslapu gribetos izveidot
+- [ ] atrast mājaslapu kuras dizains/funkcionalitāte liekas interesanta.
   
 ## Novērtējums  
 Pirmā nodarbība pie pasniedzējas Tatjanas S. aizritēja raiti, man novērtējums būtu :+1:  
