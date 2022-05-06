@@ -31,11 +31,17 @@ Dialogs_A3_js <--- projekta nosaukums
     2. Augšuplādēt jau esošu failu
 ![6](https://user-images.githubusercontent.com/104782418/167176724-eaeacd1e-a985-4e30-85ea-dc3db24e9e53.JPG)  
   
-7. Blakus projekta nosaukumam **DialogsAB_js /** parādās aile ar nosaukumu **Mapes nosaukums**. Tur mēs raksta nosaukmu mapei vai failam kuru grasāmies izveidot.
+7. Blakus projekta nosaukumam **DialogsAB_js /** parādās aile ar nosaukumu **Mapes nosaukums**. Tur mēs raksta nosaukmu mapei.
 ![7](https://user-images.githubusercontent.com/104782418/167176725-aaaef10c-887e-49dc-8408-38467a80496b.JPG)  
   
-
-![8](https://user-images.githubusercontent.com/104782418/167176726-166befb7-e12e-4cf9-aba5-5d83badf3994.JPG)
-![9](https://user-images.githubusercontent.com/104782418/167176730-6229eed5-0e68-4999-a80b-8d6396f2350e.JPG)
+8. Tagad mums ir iespēja izveidot failu nu pat izveidotajā mapē **Mapes nosaukums**. Izveidojam failu **Readme.md**
+![8](https://user-images.githubusercontent.com/104782418/167176726-166befb7-e12e-4cf9-aba5-5d83badf3994.JPG)  
+  
+9. Lūk sadaļā Edit new file, mēs varam sākt rakstīt. Esmu jau ierakstijis tekstu, kā tas izskatās varat aplūkot *10. punktā*
+![9](https://user-images.githubusercontent.com/104782418/167176730-6229eed5-0e68-4999-a80b-8d6396f2350e.JPG)  
+  
+10. Nospiežot pogu Preview redam kā tad teksts izskatās pašā failā. Sīkāk par teksta formatātiem apsaktīt varat ![Github saitē](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images)  
 ![10](https://user-images.githubusercontent.com/104782418/167176733-beac6d46-7cfa-4a3c-b928-4121f0d477a8.JPG)
-![11](https://user-images.githubusercontent.com/104782418/167176713-18975359-4f13-487b-8b5c-898474845335.JPG)
+  
+    
+# Veiksmi turpmākajos projektos.
