@@ -1,14 +1,13 @@
+# 1. uzdevums.  
+Atrast saviem iniciāļiem BIN / DEC / HEX / OCT skaitļus  
 
-## Mani iniciāļi - E M   
+## Mani iniciāļi - **EM**   
   
 ## BIN    
-
-01000101 01001101   
-  
-## DEC 
-  
-    
-## HEX   
-  
-  
-## OCT
+*0100010101001101*    
+## DEC  
+*69 377*  
+## HEX     
+*45 4D*  
+## OCT  
+*105 115*
