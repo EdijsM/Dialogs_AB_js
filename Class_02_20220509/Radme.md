@@ -1,5 +1,5 @@
 # 1. uzdevums.  
-Atrast saviem iniciāļiem BIN / DEC / HEX / OCT skaitļus  
+Atrast saviem iniciāļiem BIN / DEC / HEX / OCT skaitļus un krāsu  
 
 ## Mani iniciāļi - **EM**   
   
