@@ -15,7 +15,7 @@ Atrast saviem iniciāļiem BIN / DEC / HEX / OCT skaitļus un krāsu
 *FF000 FF7F00*  
 # 2. uzdevums.  
 *Kā tika dabūti skaitļi no iniciāļiem ?*   
-iegāju google.lv un ierakstiju text to Decimal. Man atrada HP [^1] : (cryptii.com)[https://cryptii.com/pipes/text-decimal]
+iegāju google.lv un ierakstiju text to Decimal. Man atrada HP [^1] : (cryptii.com)[https://cryptii.com/pipes/text-decimal] kurā varēju viegli konvertēt savus iniciāļus uz skaitļiem.
 
 
 [^1]: Majaslapa
