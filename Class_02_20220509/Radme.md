@@ -78,7 +78,7 @@ Tā kā visu 128 simbolu secība ciparu sitstēmās ir stanartizēti, tad to sec
 Iepriekš minētā mājaslapa ne vienmēr būs pieejama, toties tabula datorā būs pieejama pat tad ja internets nedarbosies. Sekotojot atsaucēm kuras esmu pievienojis pie ciparu sitēmu aprakstiem, varēs redzēt kā tiek piešķirtas vai aprēķinātas vērtības simboliem vai to kopām.
 
   
-[^1]: [ tabula ](/../main/assets/images/ascii-table-alpharithms-scaled.jpg)  
+[^1]: [ tabula ](../images/ascii-table-alpharithms-scaled.jpg?raw=true)  
 [^2]: [ASCII - tabula alpharithms.com](https://www.alpharithms.com/ascii-table-512119/)  
 [^3]: [DEC - binaryhexconverter.com](https://www.binaryhexconverter.com/ascii-text-to-decimal-converter)  
 [^4]: [HEX - binaryhexconverter.com](https://www.binaryhexconverter.com/ascii-text-to-hex-converter)    
