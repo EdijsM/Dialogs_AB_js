@@ -75,7 +75,7 @@ iegāju google.lv un ierakstiju text to Decimal. Man atrada mājaslapu [cryptii.
 Tā kā visu 128 simbolu secība ciparu sitstēmās ir stanartizēti, tad to secība mums ir zināma.  Atliek tikai saprst kā tiek piešķirta katram simbolam vērtība.  Vai arī izmantoju ASCII tabulu [^1]. 
 > *Amerikas informācijas apmaiņas standarta kods* (ASCII) ir līdzeklis ciparu komunikāciju rakstzīmju kodēšanai. Sākotnēji tas tika izstrādāts 1960. gadu sākumā, kad tika izstrādāti agrīni tīkla sakari. [^2]  
 
-Iepriekš minētā mājaslapa ne vienmēr būs pieejama, toties tabula datorā būs pieejama pat tad ja internets nedarbosies. Sekotojot atsaucēm kuras esmu pievienojis pie ciparu sitēmu aprakstiem, varēs redzēt kā tiek piešķirtas vai aprēķinātas vērtības simboliem vai to kopām.
+Iepriekš minētā mājaslapa ne vienmēr būs pieejama, toties tabula datorā būs pieejama pat tad ja internets nedarbosies. Sekojot atsaucēm, kuras esmu pievienojis pie ciparu sitēmu aprakstiem, varēs redzēt kā tiek piešķirtas vai aprēķinātas vērtības, simboliem un to kopām.
 
   
 [^1]: [ tabula ](../images/ascii-table-alpharithms-scaled.jpg?raw=true)  
