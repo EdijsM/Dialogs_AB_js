@@ -8,7 +8,7 @@ Atrast saviem iniciāļiem BIN / DEC / HEX / OCT skaitļus un krāsu
 Par bināro kodu sīkāk var uzināt [Class_01_20220502](https://github.com/EdijsM/Dialogs_AB_js/tree/main/Class_01_20220502) nodrabībā.
 
 ## 2. DEC 
-*69 377*  
+*69 77*  
 > Decimālskaitļu sistēma ir visbiežāk izmantotā un standarta sistēma ikdienas dzīvē. Tas izmanto skaitli 10 kā bāzi (radiksu). Tāpēc tajā ir 10 simboli: skaitļi no 0 līdz 9; proti, 0, 1, 2, 3, 4, 5, 6, 7, 8 un 9.
 >Kā vienu no vecākajām zināmajām ciparu sistēmām decimālo ciparu sistēmu ir izmantojušas daudzas senās civilizācijas. Grūtības attēlot ļoti lielus skaitļus decimālajā sistēmā tika pārvarētas, izmantojot hinduistu-arābu ciparu sistēmu. Hindu-arābu ciparu sistēma piešķir cipariem pozīcijas, un šī metode darbojas, izmantojot 10. bāzes pakāpju; cipari tiek palielināti līdz n-tajam pakāpim atbilstoši to pozīcijai.[^3]
 
