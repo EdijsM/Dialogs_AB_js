@@ -24,21 +24,22 @@ table.table2 {
     text-align: center;
     margin-left: 300px; 
     margin-right: 300px;
-    border-width: 40%;
+    border-width: 30%;
     border-radius: 30px;
     padding: 15px;
 }
 td {
     text-align: center;
     border: 1px solid black;
-    border-radius: 12px;   
+    border-radius: 12px;  
+    empty-cells: hide; 
 }
 td.t2 {
     text-align: left;
     border: 2px solid black;
     border-radius: 12px;
     border-style: dotted;
-    padding: 15px;
+    padding: 5px;
     background-color: #D6EEEE
     
 }
@@ -55,6 +56,9 @@ td:hover {
 td.t2:hover {
     background-color: #D6EEEE;
 }
+td.hide { 
+    empty-cells: hide;
+}
 
 </style>
 </head>
@@ -64,10 +68,12 @@ td.t2:hover {
 <!-- uzdevuma tabula -->
 <table class="table2">
 <tr>
+    <th classe="hide"><br></th>
     <th> Uzdevums: Iegūt no saviem iniciāļiem <i>(EM)</i> skaitļu vērtību, izsakot / Hex / Decimal / Octal / binārājā kodā.
 </th>
 
 <tr>
+    <td class="t2"><h1> ! </h1></td>
     <td class="t2">To ir iespējams aprēķināt pašam, pēc formulas. Vai arī izmantot konvertieri. 
     Konvertierim pluss ir ka tas to aprēķina āri un precīzi, bet ir savs mīnus, tas parasti ir bāzēts 
     internetā un ja jūsu datoram nav pieejams internets, tad diemžēl, aprēķināt nebūs iespējams. 
