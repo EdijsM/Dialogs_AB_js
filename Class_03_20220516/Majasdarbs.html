@@ -1,17 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!--
+        
+    border-left un right 50x padarija rāmja malas neredzamas.
+    Table1 - Galvenā tabula, kurā tiek atspoguļoti skaitļi 
+    Table2 - uzdevuma tekts    
+
+    -->
 <style>
-table {
+table.table1 {
     border: 3px solid black;
-    border-radius: 12px;
+    border-radius: 30px;
+
+    border-left: 50px;
+    border-right: 50px;
     margin-left: auto; 
     margin-right: auto;
+    padding: 15px;
+}
+table.table2 {
+    border: 0px;
+    text-align: center;
+    margin-left: 300px; 
+    margin-right: 300px;
+    border-width: 40%;
+    border-radius: 30px;
+    padding: 15px;
 }
 td {
     text-align: center;
     border: 1px solid black;
+    border-radius: 12px;   
+}
+td.t2 {
+    text-align: left;
+    border: 2px solid black;
     border-radius: 12px;
+    border-style: dotted;
+    padding: 15px;
+    background-color: #D6EEEE
+    
 }
 th {
     font-size: 17px;
@@ -20,18 +49,39 @@ th {
 h1, p{
     text-align: center;
 }
+td:hover {
+    background-color: #09ff00;
+}
+td.t2:hover {
+    background-color: #D6EEEE;
+}
 
 </style>
 </head>
 <body>
+<h1>Cipari</h1> 
 
-<h1>Cipari</h1>  
-<p style="font-family: Verdana">Šeit būs teksts par cipariem. Ievads par uzvdevumu. </p>
-<table>
+<!-- uzdevuma tabula -->
+<table class="table2">
 <tr>
-   <th>Nosaukums</th>
-   <th>Apzīmējums</th>
-   <th>Kā to aprēķināt</th>
+    <th> Uzdevums: Iegūt no saviem iniciāļiem <i>(EM)</i> skaitļu vērtību, izsakot / Hex / Decimal / Octal / binārājā kodā.
+</th>
+
+<tr>
+    <td class="t2">To ir iespējams aprēķināt pašam, pēc formulas. Vai arī izmantot konvertieri. 
+    Konvertierim pluss ir ka tas to aprēķina āri un precīzi, bet ir savs mīnus, tas parasti ir bāzēts 
+    internetā un ja jūsu datoram nav pieejams internets, tad diemžēl, aprēķināt nebūs iespējams. 
+    Savukārt zināšanas kā aprēķina vienmēr var noderēt. Ērts konvertieris ir atrodams <a href="https://www.rapidtables.com/convert/number/ascii-to-binary.html">šēit</a> </td>
+</tr>    
+</tr>
+    </table>
+<!-- uzdevuma tabula beidzas  -->
+
+    <table class="table1">
+<tr>
+    <th colspan="0">Nosaukums</th>
+    <th colspan="1">Apzīmējums</th>
+    <th colspan="2">Kā to aprēķināt</th>
 </tr>
     <tr>
     <td>BIN</td>
@@ -55,6 +105,13 @@ h1, p{
 </tr>
 </table>
 
+<table class="table2">
+<tr>
+    <td class="t2">
+        pirmās 100 koda rindiņas ir uzrakstītas :) !!!
+    </td>
+</tr>
 
+</table>
 </body>
 </html>
