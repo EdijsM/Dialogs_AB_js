@@ -1,13 +1,16 @@
 table.First{
     text-align: middle;
-    margin-left: 10px; 
-    margin-right: 300px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(63, 63, 63);
+    border: 1px solid black;
+
 }
-tr, th {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+th {
+    height: 20px;
+    width: 20px;
+}
+  th.Col {
+      background-color: rgba(100, 100, 100, 0.39);
+  }
+  h1{
+      text-align: center;
   }
