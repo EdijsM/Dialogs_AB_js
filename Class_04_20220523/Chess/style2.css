@@ -1,0 +1,13 @@
+table.First{
+    text-align: middle;
+    margin-left: 10px; 
+    margin-right: 300px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(63, 63, 63);
+}
+tr, th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
