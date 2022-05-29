@@ -3,8 +3,8 @@ table {
     margin-left: auto;
     margin-right: auto;
 }
-table.me {
-background-color: rgba(125, 127, 245, 0.836);
+.me {
+background-color: rgba(153, 154, 241, 0.438);
 border-style: outset;
 border-radius: 15px;
 padding: 5px;
@@ -13,12 +13,12 @@ table.pro {
     width: 800px
     
 }
-td.mazie {
+.mazie {
     font-family: Times, serif;
     font-size: 11px;
     background-color: rgba(146, 145, 145, 0.548);
 }
-td.Name {
+.Name {
     font-family: Helvetica;
     font-size: 30px;
 }
@@ -31,6 +31,10 @@ td.school {
     font-size: 10px;
     background-color: rgba(146, 145, 145, 0.548);
     width: 200px
+}
+.school1 {
+    font-size: 12px;
+    font-family: sans-serif;
 }
 td.line {
     border-style: inset;
