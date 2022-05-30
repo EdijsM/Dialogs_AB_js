@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>First Form</title>  
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+<h1>Lūdzu aizpildi pieteikumu.</h1>
+<p>*obligāti aizpildāmie lauki.</p>
+<form action="form.html">
+    <label for="fname">Vārds:</label>*<br>
+    <input type="text" id="fname" name="fname" required><br>
+    <label for="lname">Uzvārds:</label>*<br>
+    <input type="text" id="lname" name="lname" required><br>
+    <label for="email">epatas:</label>*<br>
+    <input type="email" id="email" name="email" required><br>
+    <label for="pasw">Parole</label>*<br>
+    <input type="password" id="psw" name="psw" value="" required type="hidden" required><br>
+    <input type="radio" id="men" name="dzimums" value="Vīrietis">
+    <label for="man">Vīrietis</label><br>
+    <input type="radio" id="woman" name="dzimums" value="Sieviete">
+    <label for="woman">Sieviete</label><br>
+<br>
+<p>Kur uzzināji par šo pieteikumu?</p>
+<input type="checkbox" id="kursi" name="kursi" value="Kursi">
+<label for="kursi">No kursiem</label><br>
+<input type="checkbox" id="google" name="google" value="Googole">
+<label for="google">Google.com</label><br>
+<input type="checkbox" id="draugi" name="draugi" value="Draugi">
+<label for="draugi">Draugi ieteica</label>
+<br>
+<br>
+<label for="city">Izvēlies pilsētu:</label>
+<select id="city" name="city" required>
+  <option value="riga" selected>Rīga</option>
+  <option value="liepaja">Liepāja</option>
+  <option value="tukums">Tukums</option>
+  <option value="saldus">Saldus</option>
+</select>
+<br>
+<br>
+<label for="birthdaytime">Dzimšanas diena (date and time):</label><br>
+<input type="datetime-local" id="birthdaytime" name="birthdaytime">
+<br>
+<br>
+
+    <label for="myfile">Pievieno savu foto:</label><br>
+    <input type="file" id="myfile" name="myfile">
+<br>
+<br>
+
+<textarea name="message" rows="10" cols="30">
+    Lūdzu atstāj kādu komentāru.
+    </textarea>
+<input type="submit" value="Submit" >
+<br>
+
+</form>
+</body>
+</html>
