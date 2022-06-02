@@ -1,0 +1,25 @@
+.otrais {
+    text-align: center;
+    border: 1px solid black;
+}
+.treshais {
+    background-color:yellowgreen;
+    width: 450px;
+    height: 180px;
+    text-align: center;    
+}
+.ceturtais {
+    background-color:rgb(105, 148, 19);
+    width: 450px;
+    height: 180px;
+    text-align: center;    
+}
+.change {
+    font-size: 13px;
+}
+table {
+    border-spacing: 30px;
+  }
+td {
+    text-align: center;
+}

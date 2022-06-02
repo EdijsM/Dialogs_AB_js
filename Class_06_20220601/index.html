@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+<head>
+    <title>Firts JavaScript</title>
+    <link rel="icon" href="../images/document.png" type="image/x-icon">
+    <script src="/Class_06_20220601/javascript.js"></script>
+</head>
+
+<link rel="stylesheet" href="../Class_06_20220601/style.css">
+
+<body>
+<!-- pirmais -->
+<div>   
+<h2><b>1.</b> JavaScript in Body</h2>
+
+<p id="demo"> Piespied zemāk, lai šis teksts nomainīts</p>
+
+<button type="button" onclick="document.getElementById('demo').innerHTML='Es tak teicu nomainīsies'">
+Spied šeit</button> 
+</div>
+
+<!-- otrais-->
+<div class="otrais">
+    <h2><b>2.</b> JavaScript atribut change</h2>
+    <p>Šeit JS maina atribūta src ( source ) vērību, kas ir img ( bilde )</p>
+
+    <button onclick="document.getElementById('bulb').src='/images/js/pic_bulboff.gif'">Turn off the light</button>
+
+    <img id="bulb" src="/images/js/pic_bulboff.gif" style="width:100px">
+
+    <button onclick="document.getElementById('bulb').src='/images/js/pic_bulbon.gif'">Turn on the light</button>
+</div>
+
+<!-- trešais -->
+<h1 style="text-align:center"> What can JS do ?</h1>
+<table>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>
+            <div class="treshais">
+
+                
+
+                <h2>It can change the style of an HTML element</h2>
+                <p class="change" id="change">Push the button to change me.</p>
+                <button type="button" onclick="document.getElementById('change').style.fontSize='35px'">Abra ka dabra</button>
+                <button type="button" onclick="document.getElementById('change').style.fontSize='13px'">Abra ka dabra</button>
+            </div>
+        </td>
+        <td>
+
+            <!-- īpašais -->
+            
+            <div class="ceturtais">
+                <h2>Want more of JS stuff ?*</h2>
+                <p id="puff">Kad tavs tēvs aiziet pēc cīgām uzveikalu ar frāzi "es ātri"</p>            
+                <button onclick="myFunction() ; document.getElementById('puff').style.display='none'" id="teti" value="dad">Tēti paliec</button>
+                <p>*dark hummor :)</p>
+            </div>
+
+            <!-- īpašais -->
+
+        </td>
+        <td>
+            <div class="treshais">
+                <h2>Ok JS also can show some stuff.</h2>
+                <p id="sdad" style="display:none">Sveiks, esmu tavs jaunais mammas draugs.</p>
+                <button type="button" onclick="document.getElementById('sdad').style.display='block'">Mammu kas tas par veci ?</button>
+            </div>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
