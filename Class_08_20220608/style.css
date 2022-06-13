@@ -1,0 +1,36 @@
+.uzdevums1 {
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 450px;
+    height: 200px;
+    text-align: center
+    
+}
+.uzdevums2 {
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 450px;
+    height: 180px;
+    text-align: center
+}
+
+.uzdevums2a {
+
+    border: 2px solid black;
+    width: 450px;
+    height: 180px;
+    text-align: center
+}
+
+.uzdevums3 {
+
+    border: 2px solid black;
+    width: 450px;
+    height: 400px;
+    text-align: center
+}
+
+
+hr {
+    border: none;
+}
