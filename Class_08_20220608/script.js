@@ -16,8 +16,26 @@ var x = 45;
 document.getElementById("dec").innerHTML = x;
 
 var bit_number = 7^52;
-var y = (x << (bit_number-7) ) >> bit_number;
+var y = (x >> 7 ) & bit_number;
 var z = String(y);
+y = (x >> 6 ) & 1;
+z = z + '' + String(y)
+y = (x >> 5 ) & 1;
+z = z + '' + String(y)
+y = (x >> 4 ) & 1;
+z = z + '' + String(y)
+y = (x >> 3 ) & 1;
+z = z + '' + String(y)
+y = (x >> 2 ) & 1;
+z = z + '' + String(y)
+y = (x >> 1 ) & 1;
+z = z + '' + String(y)
+y = (x >> 0 ) & 1;
+z = z + '' + String(y)
+
+
+
+/** nepareizais
     y = (x << (bit_number-6) ) >> bit_number;
     z = z + '_' + String(y)
     y = (x << (bit_number-5) ) >> bit_number;
@@ -31,8 +49,8 @@ var z = String(y);
     y = (x << (bit_number-1) ) >> bit_number;
     z = z + '_' + String(y)
     y = (x << (bit_number-0) ) >> bit_number;
-    z = z + '_' + String(y)
-
+    z = z + '_' + String(y) 
+**/
 
 document.getElementById("bin").innerHTML = z;
 
