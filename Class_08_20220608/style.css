@@ -8,6 +8,7 @@
 }
 .uzdevums2 {
     background-color: aquamarine;
+   
     border: 2px solid black;
     width: 450px;
     height: 180px;
@@ -23,14 +24,18 @@
 }
 
 .uzdevums3 {
-
+    padding: 25px;
     border: 2px solid black;
-    width: 450px;
+    width: 400px;
     height: 400px;
-    text-align: center
+    text-align: left
 }
 
 
 hr {
     border: none;
+}
+p.1{
+    padding-bottom: 1pxpx;
+    
 }

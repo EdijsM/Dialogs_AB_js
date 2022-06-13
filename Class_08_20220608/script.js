@@ -10,65 +10,6 @@ console.log(a+b+e**d);
 **/
 
 
-
-
-
-
-
-
-
-/*  uzdevums 2
-
-r - riņķa līnijas radius 
-p - pī
-c - riņa linajs garums
-*/
-
-
-var r = 6371;
-console.log("Rādius: " +r)
-
-p = 3.14159 ;
-console.log("π: " +p)
-
-c = 2*p*r;
-console.log("riņķa līnija  " +c)
-
-num = c;
-roundedString = num.toFixed(2);
-rounded = Number(roundedString);
-
-
-
-document.getElementById("radiuss").innerHTML = 'Ja pieņemam ka zemes radius ir ' + r + ' km ' + 'tad ekvadora aptuvanais garums ir ' + rounded + 'km';
-
-//* uzdevums 2a
-
-function myFunction() {
-    var x = document.getElementById("myText").value;
-    p = 3.14159 ;
-    c = 2*p*x;
-    num = c;
-roundedString = num.toFixed(2);
-rounded = Number(roundedString);
-    
-document.getElementById("ekvadors").innerHTML = rounded + 'km';
- }
-
-
-// uzdevums 3
-
-var procenti = 0.01;
-    neme = Gita;
-    gadi = x
-
-
-
-
-
-
-
-
 // uzdevums 1
 var x = 45;
  bit_number = 2 ;
@@ -118,6 +59,86 @@ document.getElementById("bin").innerHTML = z;
     y = (x << (bit_number-0) ) >> bit_number;
     z = z + '_' + String(y) 
 **/
+
+
+
+
+
+
+
+
+/*  uzdevums 2
+
+r - riņķa līnijas radius 
+p - pī
+c - riņa linajs garums
+*/
+
+
+var r = 6371;
+console.log("Rādius: " +r)
+
+p = 3.14159 ;
+console.log("π: " +p)
+
+c = 2*p*r;
+console.log("riņķa līnija  " +c)
+
+num = c;
+roundedString = num.toFixed(2);
+rounded = Number(roundedString);
+
+
+
+document.getElementById("radiuss").innerHTML = 'Ja pieņemam ka zemes radius ir ' + r + ' km ' + 'tad ekvadora aptuvanais garums ir ' + rounded + 'km';
+
+//* uzdevums 2a
+
+function myFunction() {
+    var x = document.getElementById("myText").value;
+    p = 3.14159 ;
+    c = 2*p*x;
+    num = c;
+roundedString = num.toFixed(2);
+rounded = Number(roundedString);
+    
+document.getElementById("ekvadors").innerHTML = rounded + 'km';
+ }
+
+
+// uzdevums 3
+
+var procenti = 0.01;
+    userName = "Gita";
+    account = 100000;
+    gadi1 = 0.01;
+    gadi2 = 0.02;
+    gadi3 = 0.03;
+    gadi4 = 0.04;
+    gadi5 = 0.05;
+
+    
+
+    x1 = account * gadi1
+    x2 = account * gadi2
+    x3 = account * gadi3
+    x4 = account * gadi4
+    x5 = account * gadi5
+
+
+
+
+    document.getElementById("banka").innerHTML = 'Cienījamā, ' + userName;
+    document.getElementById("piedavajums").innerHTML = 'Mēs redzam ka, Jūsu, kontā ir ' + account + ' EUR. Uz tā pamata vēlamies, Jums, piedāvāt nogūldīt šo summu mūsu nogūldijuma kontā uz kādu no zemāk norādītajiem termiņiem.';
+    document.getElementById("ieguvums1").innerHTML = '- uz vienu gadu, ar jūsu ieguvumu ' + x1 + 'EUR';
+    document.getElementById("ieguvums2").innerHTML = '- uz diviem gadiem, ar jūsu ieguvumu ' + x2 + 'EUR';
+    document.getElementById("ieguvums3").innerHTML = '- uz trim gadiem, ar jūsu ieguvumu ' + x3 + 'EUR';
+    document.getElementById("ieguvums4").innerHTML = '- uz četriem gadiem, ar jūsu ieguvumu ' + x4 + 'EUR';
+    document.getElementById("ieguvums5").innerHTML = '- uz pieciem gadiem, ar jūsu ieguvumu ' + x5 + 'EUR';
+    document.getElementById("thnx").innerHTML = 'Ceram uz sadarbību, ' + userName;
+
+
+
 
 
 /** var lido cauri visam skriptam
