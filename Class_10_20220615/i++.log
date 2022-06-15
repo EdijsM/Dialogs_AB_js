@@ -1,0 +1,28 @@
+const person = [["BBB", 100], "AAA", 445]]
+VM1998:1 Uncaught SyntaxError: Unexpected token ']'
+const person = [["BBB", 100], "AAA", 445,]]
+VM2006:1 Uncaught SyntaxError: Unexpected token ']'
+const person = [["BBB", 100], "AAA", "445"]]
+VM2024:1 Uncaught SyntaxError: Unexpected token ']'
+const person = [["BBB", 100], "AAA", "445"]];
+VM2031:1 Uncaught SyntaxError: Unexpected token ']'
+const person = [["BBB", 100], "AAA", 445]];
+VM2045:1 Uncaught SyntaxError: Unexpected token ']'
+const person = [["BBB", 100], "AAA", 445];
+undefined
+person [0][0]
+'BBB'
+const cars = [["bmw", "Audi"], [["x3","x5"],["q3","q5"]];
+VM2423:1 Uncaught SyntaxError: Unexpected token ';'
+const cars = [["bmw", "Audi"], [["x3","x5"],["q3","q5"]]];
+undefined
+i=0
+0
+cars[0][i]
+'bmw'
+cars[0][i] + " markas mashinai ir: " + cars[1][0];
+'bmw markas mashinai ir: x3,x5'
+i++;
+0
+cars[0][i] + " markas mashinai ir: " + cars[1][i];
+'Audi markas mashinai ir: q3,q5'

@@ -108,8 +108,7 @@ document.getElementById("ekvadors").innerHTML = rounded + 'km';
 
 // uzdevums 3
 
-var procenti = 0.01;
-    userName = "Gita Liepa";
+var userName = "Gita Liepa";
     account = 15000;
     gadi1 = 0.01;
     gadi2 = 0.02;
@@ -117,25 +116,27 @@ var procenti = 0.01;
     gadi4 = 0.04;
     gadi5 = 0.05;
 
-    x1 = ( account * gadi1 ) * 1
-    x2 = ( account * gadi2 ) * 2
-    x3 = ( account * gadi3 ) * 3
-    x4 = ( account * gadi4 ) * 4
-    x5 = ( account * gadi5 ) * 5
+    x1 = ( account * gadi1 ) * 1;
+    x2 = ( account * gadi2 ) * 2;
+    x3 = ( account * gadi3 ) * 3;
+    x4 = ( account * gadi4 ) * 4;
+    x5 = ( account * gadi5 ) * 5;
 
-    //** 2.papilduzdevums
+    //** 2.papilduzdevums: pamatsummas pieaugums
 
-    x1g = (account * gadi5) + account
-    x2g = ( x1g * gadi5 ) + x1g
-    x3g = ( x2g * gadi5 ) + x2g
-    x4g = ( x3g * gadi5 ) + x3g
-    x5g = ( x4g * gadi5 ) + x4g - account
+    x1g = ( account * gadi5 ) + account;
+    x2g = ( x1g * gadi5 ) + x1g;
+    x3g = ( x2g * gadi5 ) + x2g;
+    x4g = ( x3g * gadi5 ) + x3g;
+    x5g = ( x4g * gadi5 ) + x4g - account;
 
-    //** 1.papilduzdevums 
+    //** 1.papilduzdevums: attēlot summas ar diviem simboliem aiz punkta 
     num = x5g;
     roundedString = num.toFixed(2);
     rounded = Number(roundedString);
     
+
+//**  4. uzdevums pāreja no diskrētiem mainīgajiem uz masīvu 
 
 
 
@@ -145,12 +146,9 @@ var procenti = 0.01;
     document.getElementById("ieguvums2").innerHTML = '- uz diviem gadiem, ar jūsu ieguvumu ' + x2 + ' EUR';
     document.getElementById("ieguvums3").innerHTML = '- uz trim gadiem, ar jūsu ieguvumu ' + x3 + ' EUR';
     document.getElementById("ieguvums4").innerHTML = '- uz četriem gadiem, ar jūsu ieguvumu ' + x4 + ' EUR';
-    document.getElementById("ieguvums5").innerHTML = '- uz pieciem gadiem, ar jūsu ieguvumu ' + x5 + ' EUR'+ ". Ja vēlēsieties saņemt procentus pie pamat summas termiņā beigās, jūsu kopējais ieguvums būs " + rounded + " EUR ";
+    document.getElementById("ieguvums5").innerHTML = '- uz pieciem gadiem, ar jūsu ieguvumu ' + x5 + ' EUR'+ ". Ja vēlēsieties saņemt procentus pie pamat summas, termiņā beigās, jūsu kopējais ieguvums būs " + rounded + " EUR ";
     document.getElementById("thnx").innerHTML = 'Ceram uz sadarbību, ' + userName;
 
-
-// uzdevums 1. attēlot summas ar diviem simboliem aiz punkta. 
-// uzdevums 2. pamatsummas pieaugums
 
 
 /** var lido cauri visam skriptam

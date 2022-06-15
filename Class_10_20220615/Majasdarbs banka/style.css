@@ -1,0 +1,23 @@
+
+.uzdevums3 {
+    padding: 25px;
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    text-align: left
+}
+.uzdevums4 {
+    padding: 25px;
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    text-align: left
+}
+
+hr {
+    border: none;
+}
+p.1{
+    padding-bottom: 1pxpx;
+    
+}
