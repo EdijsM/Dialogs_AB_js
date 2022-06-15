@@ -109,8 +109,8 @@ document.getElementById("ekvadors").innerHTML = rounded + 'km';
 // uzdevums 3
 
 var procenti = 0.01;
-    userName = "Gita";
-    account = 100000;
+    userName = "Gita Liepa";
+    account = 15000;
     gadi1 = 0.01;
     gadi2 = 0.02;
     gadi3 = 0.03;
@@ -119,11 +119,11 @@ var procenti = 0.01;
 
     
 
-    x1 = account * gadi1
-    x2 = account * gadi2
-    x3 = account * gadi3
-    x4 = account * gadi4
-    x5 = account * gadi5
+    x1 = ( account * gadi1 ) * 1
+    x2 = ( account * gadi2 ) * 2
+    x3 = ( account * gadi3 ) * 3
+    x4 = ( account * gadi4 ) * 4
+    x5 = ( account * gadi5 ) * 5
 
 
 
