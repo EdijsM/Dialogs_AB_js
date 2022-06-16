@@ -1,3 +1,4 @@
+//** kods 29 rindiņas */
 var userName = "Gita Liepa";
     account = 15000;
     gadi1 = 0.01;
@@ -24,8 +25,6 @@ var userName = "Gita Liepa";
     num = x5g;
     roundedString = num.toFixed(2);
     rounded = Number(roundedString);
-    
-
     document.getElementById("banka").innerHTML = 'Cienījamā, ' + userName;
     document.getElementById("piedavajums").innerHTML = 'Mēs redzam ka, Jūsu, kontā ir ' + account + ' EUR. Uz tā pamata vēlamies, Jums, piedāvāt nogūldīt šo summu mūsu nogūldijuma kontā uz kādu no zemāk norādītajiem termiņiem.';
     document.getElementById("ieguvums1").innerHTML = '- uz vienu gadu, ar jūsu ieguvumu ' + x1 + ' EUR';
@@ -37,22 +36,33 @@ var userName = "Gita Liepa";
 
 
 
-     //** 4. uzdevums pāreja no diskrētiem mainīgajiem uz masīvu 
+     //** 4. uzdevums pāreja no diskrētiem mainīgajiem uz masīvu ( kods 12 rindiņas )
 
-    const gadi = ["1", "2", "3", "4", "5"];
+    const gadi = ["0.01", "0.02", "0.03", "0.04", "0.05"]; //** gadi ir domāti procenti gadā . 1.gads ir 1%, 2.gadi ir 2% utt */
     const bUser = [ "Andris Lielais", "15000"];
-    
     var procenti;
     var reuzltats;
-    i = 1
+    var 
+        i = 0 ;
     for ( let i = 1; i < 6; i++) {
-        procenti=i/1; 
+        procenti=i; 
         rezultats=(bUser[1]*procenti)/100; 
 
         document.getElementById('piedavajums2').innerHTML=document.getElementById('piedavajums2').innerHTML + 'Ja jūs iegulīsiest to mūsu bankā uz '+i+' gadu, , tad pec gada Jūs saņemsiet '+rezultats+' EUR.<br>';
     }  
-    
-    
-    document.getElementById("klients").innerHTML = 'Cienijamais,' + bUser[0];
 
+    function rekina(){
+        var kGadi =  document.getElementById('klientsInput').value; 
+        i = 1
+        for ( let i = 1; i < 2; i++ ) {
+            procenti1=i/1; 
+            rezultats2=(bUser[1]*kGadi)/100; 
+
+     document.getElementById('piedavajums2').innerHTML=document.getElementById('piedavajums2').innerHTML + 'Jūsu izvēlētais termiņš ir uz  ' + kGadi +' gadiem, , termiņā beigās jūsu ieguvums būs '+ rezultats2 +' EUR.<br>';
+    
+    }
+    }
+
+
+    document.getElementById("klients").innerHTML = 'Cienījamais, ' + bUser[0];
     document.getElementById("thnx2").innerHTML = 'Ceram uz sadarbību, ' + bUser[0];
