@@ -51,18 +51,22 @@ var userName = "Gita Liepa";
         document.getElementById('piedavajums2').innerHTML=document.getElementById('piedavajums2').innerHTML + 'Ja jūs iegulīsiest to mūsu bankā uz '+i+' gadu, , tad pec gada Jūs saņemsiet '+rezultats+' EUR.<br>';
     }  
 
+    
+    //**  klients izvelas gadu skaitu !!! nesaprotu kādēļ atkārto divas reizes */
     function rekina(){
         var kGadi =  document.getElementById('klientsInput').value; 
-        i = 1
+        i = 0
+        
         for ( let i = 1; i < 2; i++ ) {
-            procenti1=i/1; 
-            rezultats2=(bUser[1]*kGadi)/100; 
+            
+            rezultats2=(bUser[1]*kGadi)/100
+            ; 
 
      document.getElementById('piedavajums2').innerHTML=document.getElementById('piedavajums2').innerHTML + 'Jūsu izvēlētais termiņš ir uz  ' + kGadi +' gadiem, , termiņā beigās jūsu ieguvums būs '+ rezultats2 +' EUR.<br>';
     
     }
     }
 
-
+//** Pateicība klientam */
     document.getElementById("klients").innerHTML = 'Cienījamais, ' + bUser[0];
     document.getElementById("thnx2").innerHTML = 'Ceram uz sadarbību, ' + bUser[0];
