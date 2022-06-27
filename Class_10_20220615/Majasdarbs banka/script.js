@@ -31,8 +31,20 @@ var userName = "Gita Liepa";
     document.getElementById("ieguvums2").innerHTML = '- uz diviem gadiem, ar jūsu ieguvumu ' + x2 + ' EUR';
     document.getElementById("ieguvums3").innerHTML = '- uz trim gadiem, ar jūsu ieguvumu ' + x3 + ' EUR';
     document.getElementById("ieguvums4").innerHTML = '- uz četriem gadiem, ar jūsu ieguvumu ' + x4 + ' EUR';
-    document.getElementById("ieguvums5").innerHTML = '- uz pieciem gadiem, ar jūsu ieguvumu ' + x5 + ' EUR'+ ". Ja vēlēsieties saņemt procentus pie pamat summas, termiņā beigās, jūsu kopējais ieguvums būs " + rounded + " EUR ";
+   
+    document.getElementById("ieguvums5").innerHTML = '- uz pieciem gadiem, ar jūsu ieguvumu ' + x5 + ' EUR'+ 
+    ". Ja vēlēsieties saņemt procentus pie pamat summas, termiņā beigās, jūsu kopējais ieguvums būs " + rounded + " EUR ";
+    
     document.getElementById("thnx").innerHTML = 'Ceram uz sadarbību, ' + userName;
+
+
+
+
+
+
+
+
+
 
 
 
@@ -51,7 +63,7 @@ var userName = "Gita Liepa";
         document.getElementById('piedavajums2').innerHTML=document.getElementById('piedavajums2').innerHTML + 'Ja jūs iegulīsiest to mūsu bankā uz '+i+' gadu, , tad pec gada Jūs saņemsiet '+rezultats+' EUR.<br>';
     }  
 
-    
+
     //**  klients izvelas gadu skaitu !!! nesaprotu kādēļ atkārto divas reizes */
     function rekina(){
         var kGadi =  document.getElementById('klientsInput').value; 
@@ -70,3 +82,7 @@ var userName = "Gita Liepa";
 //** Pateicība klientam */
     document.getElementById("klients").innerHTML = 'Cienījamais, ' + bUser[0];
     document.getElementById("thnx2").innerHTML = 'Ceram uz sadarbību, ' + bUser[0];
+
+
+//** īsāks kods */
+
