@@ -18,7 +18,7 @@ switch (arg) {
     alert( 'Nepareizi' );
 } 
 */
-const days = ["Svēdiena","Pirmdiena","Otrdiena","Trešdiena","Ceturdiena","Piekdiena","Sesdiena"];
+const days = ["Svēdiena","Pirmdiena","Otrdiena","Trešdiena","Ceturdiena","Piektdiena","Sesdiena"];
 const datums = new Date();
 let day = days[datums.getDay()];
 
