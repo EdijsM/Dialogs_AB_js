@@ -151,7 +151,7 @@ var userName = "Gita Liepa";
 
 
 
-/** var lido cauri visam skriptam
+/** var lido cauri visam skriptam, un var tikt mainīts un saglabā pēdējo vērtību
 var a = 45;
 console.log("a vērtība (no 'galvenā zara'): "+a);
 
@@ -163,7 +163,7 @@ console.log("a vērtība (no 'galvenā zara'): "+a);
 console.log("a (vērtība ārpus 'skope'): "+a); 
 
 
-//** let strādā līdz {skope} un pēc vai arītikai iekš {skope} 
+//** let strādā līdz {skope} un pēc vai arī tikai iekš {skope} 
 let b = 60;
 console.log(b);
 
